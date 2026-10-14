@@ -4,6 +4,12 @@ An Android application for recording and managing student attendance.
 The application allows users to add students, mark them as present
 or absent, and view attendance summaries.
 
+## Contributors
+-Leon Kandie (https://github.com/LeonKandie456)
+
+-Andy Kalia (https://github.com/Elkaparo)
+
+
 ## Overview
 
 The Student Attendance Register is a beginner-friendly Android
@@ -93,9 +99,6 @@ The current implementation stores student names and attendance
 statuses in memory. Attendance records are not permanently saved
 when the application process is restarted.
 
-## Contributors
--Leon Kandie (https://github.com/LeonKandie456)
--Andy Kalia (https://github.com/Elkaparo)
 
 ## Project Objective
 
