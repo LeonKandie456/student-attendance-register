@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F4F6FA">
+
+    <!-- Application title -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Attendance Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#172554"
+        android:gravity="center"
+        android:padding="12dp" />
+
+    <!-- Student name input -->
+
+    <EditText
+        android:id="@+id/studentNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter student name"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <!-- Add student button -->
+
+    <Button
+        android:id="@+id/addStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student" />
+
+    <!-- Attendance summary -->
+
+    <TextView
+        android:id="@+id/summaryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: 0 | Present: 0 | Absent: 0"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#172554"
+        android:padding="12dp"
+        android:gravity="center" />
+
+    <!-- Empty register message -->
+
+    <TextView
+        android:id="@+id/emptyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No students have been added yet."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#64748B" />
+
+    <!-- Student list -->
+
+    <ListView
+        android:id="@+id/studentList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#CBD5E1"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
